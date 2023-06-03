@@ -1,0 +1,8 @@
+commad
+
+lspci -x //description of register
+lspci -n // hardware description
+make clean //clean iso .bin object file
+make //create Object file
+make run //create and run virtual box
+nm interrupts.o //find the name of handler static method
